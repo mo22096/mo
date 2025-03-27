@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تريكو الشرقاوي | مصنع ملابس شتوية أولادي وبناتي</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1> تريكو<span></span>الشرقاوي</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#gallery">معرض الصور</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- قسم الهيرو -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <img src="main-image.jpg" alt="صورة مصنع تريكو الشرقاوي" class="hero-image">
+        <div class="hero-content">
+            <h2>تريكو الشرقاوي للملابس الشتوية</h2>
+            <p>خبرة 20 عاماً في صناعة الملابس الشتوية</p>
+            <a href="#contact" class="cta-button">تواصل معنا</a>
+        </div>
+    </header>
+
+    <!-- قسم من نحن -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">من نحن</h2>
+                <div class="about-text">
+                    <p>تريكو الشرقاوي لتصنيع الملابس الشتوية (أولادي و بناتي) ولتجارة الجملة</p>
+                    <p>منتج تريكو الشرقاوي يتميز بجودته العالية وكفاءته، كما أنه موجود في السوق منذ أكثر من عشرين عاماً.</p>
+                    <p>معظم الخيوط التي نستخدمها في الصناعة مستوردة من الخارج (الصين)</p>
+                    <p>كما لنا باع كبير أيضاً في تجارة الخيوط (العجينه - الرمش - السبن)</p>
+                </div>
+                <div class="info-cards">
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>أوقات العمل</h3>
+                        <p>24 ساعة يومياً</p>
+                        <p>ماعدا يوم الجمعة</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>الموقع</h3>
+                        <p>ميت مسعود - أجا - الدقهلية</p>
+                        <button id="show-map" class="map-button">عرض الخريطة</button>
+                    </div>
+                    <div class="info-card owner-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>صاحب المصنع</h3>
+                        <p>الأستاذ الشرقاوي وأولاده</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">المنتجات</h2>
+            <div class="product-categories">
+                <div class="product-category">
+                    <div class="category-header">
+                        <h3>أولادي</h3>
+                    </div>
+                    <div class="category-details">
+                        <p>تصاميم خاصة للأولاد بجودة عالية وأناقة مميزة</p>
+                    </div>
+                </div>
+                <div class="product-category">
+                    <div class="category-header">
+                        <h3>بناتي</h3>
+                    </div>
+                    <div class="category-details">
+                        <p>أجمل التصاميم للبنات بتفاصيل دقيقة وجودة فاخرة</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="materials-section">
+                <h3>الخامات المستخدمة:</h3>
+                <div class="materials-list">
+                    <div class="material-item">
+                        <i class="fas fa-circle"></i>
+                        <span>عجينه</span>
+                    </div>
+                    <div class="material-item">
+                        <i class="fas fa-circle"></i>
+                        <span>اسبن</span>
+                    </div>
+                    <div class="material-item">
+                        <i class="fas fa-circle"></i>
+                        <span>رمش</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- معرض الصور -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">معرض الصور</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="background-image: url('gallery1.jpg');">
+                    <div class="gallery-overlay">
+                        <h3>جودة لا تضاهى</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('gallery2.jpg');">
+                    <div class="gallery-overlay">
+                        <h3>إتقان في التصنيع</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('gallery3.jpg');">
+                    <div class="gallery-overlay">
+                        <h3>تصاميم عصرية</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('gallery4.jpg');">
+                    <div class="gallery-overlay">
+                        <h3>خامات فاخرة</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" style="background-image: url('gallery5.jpg');">
+                    <div class="gallery-overlay">
+                        <h3>رؤية إبداعية</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- خريطة -->
+    <div id="map-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>موقع المصنع</h3>
+            <div id="map" class="map-container"></div>
+            <p>ميت مسعود - أجا - الدقهلية</p>
+        </div>
+    </div>
+
+    <!-- اتصل بنا -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>201210391421</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>ميت مسعود - أجا - الدقهلية</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user-tie"></i>
+                        <p>الإدارة: الشرقوي واولاده</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/201210391421" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> تواصل عبر واتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>الشرقاوي <span>وأولاده</span></h2>
+                    <p>جودة تصنع باحترافية منذ 20 عام</p>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#gallery">معرض الصور</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>معلومات التواصل</h3>
+                    <p><i class="fas fa-phone"></i> 201210391421</p>
+                    <p><i class="fas fa-map-marker-alt"></i> ميت مسعود - أجا - الدقهلية</p>
+                    <p><i class="fas fa-clock"></i> 24 ساعة يومياً ماعدا الجمعة</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> مصنع تريكو الشرقاوي وأولاده. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
